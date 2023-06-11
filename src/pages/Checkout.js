@@ -26,71 +26,35 @@ const products = [
     // More products...
 ]
 
-const people = [
+const addresses = [
     {
-      name: 'Leslie Alexander',
-      email: 'leslie.alexander@example.com',
-      role: 'Co-Founder / CEO',
-      imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      lastSeen: '3h ago',
-      lastSeenDateTime: '2023-01-23T13:23Z',
+        name: 'Pabitra Banerjee',
+        pin: 723131,
+        place: 'Manbazar',
+        district: 'Purulia',
+        landmark: 'Beside Of CPI(M) Party Office',
+        mobile: 9064485906,
     },
     {
-      name: 'Michael Foster',
-      email: 'michael.foster@example.com',
-      role: 'Co-Founder / CTO',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      lastSeen: '3h ago',
-      lastSeenDateTime: '2023-01-23T13:23Z',
+        name: 'Arnab De',
+        place: 'Kamarpukur',
+        district: 'Purulia',
+        landmark: 'Beside Of TMC Party Office',
+        pin: 700891,
+        mobile: 9547060363,
     },
-    {
-      name: 'Dries Vincent',
-      email: 'dries.vincent@example.com',
-      role: 'Business Relations',
-      imageUrl:
-        'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      lastSeen: null,
-    },
-    {
-      name: 'Lindsay Walton',
-      email: 'lindsay.walton@example.com',
-      role: 'Front-end Developer',
-      imageUrl:
-        'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      lastSeen: '3h ago',
-      lastSeenDateTime: '2023-01-23T13:23Z',
-    },
-    {
-      name: 'Courtney Henry',
-      email: 'courtney.henry@example.com',
-      role: 'Designer',
-      imageUrl:
-        'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      lastSeen: '3h ago',
-      lastSeenDateTime: '2023-01-23T13:23Z',
-    },
-    {
-      name: 'Tom Cook',
-      email: 'tom.cook@example.com',
-      role: 'Director of Product',
-      imageUrl:
-        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      lastSeen: null,
-    },
-  ]
+]
 
 function CheckoutPage() {
     return (
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className='grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-5'>
                 <div className='lg:col-span-3'>
-                    <form className='bg-white px-5 py-5'>
+                    <form className='bg-white px-5 py-5 mt-12'>
                         <div className="space-y-12">
                             <div className="border-b border-gray-900/10 pb-12">
-                                <h2 className="text-base font-semibold leading-7 text-gray-900">Personal Information</h2>
-                                <p className="mt-1 text-sm leading-6 text-gray-600">Use a permanent address where you can receive mail.</p>
+                                <h2 className="text-3xl font-bold text-center leading-7 mb-3" style={{ fontFamily: 'cursive', color: 'red' }}>Fill-Up Your Shipping Address</h2>
+                                <p className="mt-1 text-sm leading-6 text-gray-600">Use A Permanent Address Where You Can Receive The Oredr...</p>
 
                                 <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                                     <div className="sm:col-span-3">
@@ -224,30 +188,23 @@ function CheckoutPage() {
                                     Choose From Existing Addresses...
                                 </p>
 
-                                <ul role="list" className="divide-y divide-gray-100">
-                                    {people.map((person) => (
-                                        <li key={person.email} className="flex justify-between gap-x-6 py-5">
+                                <ul role="list" className='pt-5'>
+                                    {addresses.map((address) => (
+                                        <li key={address.place} className="flex justify-between gap-x-6 py-5 border-solid border-2 border-gray-800">
                                             <div className="flex gap-x-4">
-                                                <img className="h-12 w-12 flex-none rounded-full bg-gray-50" src={person.imageUrl} alt="" />
+                                            <input name='address'
+                                                type="radio"
+                                                className="h-4 w-4 mt-10 ml-5 mr-5 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                                            />
                                                 <div className="min-w-0 flex-auto">
-                                                    <p className="text-sm font-semibold leading-6 text-gray-900">{person.name}</p>
-                                                    <p className="mt-1 truncate text-xs leading-5 text-gray-500">{person.email}</p>
+                                                    <p className="text-sm font-semibold leading-6 text-gray-900">{address.name}</p>
+                                                    <p className="mt-1 truncate text-xs leading-5 text-gray-500">{address.place}</p>
+                                                    <p className="mt-1 truncate text-xs leading-5 text-gray-500">{address.district}</p>
+                                                    <p className="mt-1 truncate text-xs leading-5 text-gray-500">{address.pin}</p>
+                                                    <p className="mt-1 truncate text-xs leading-5 text-gray-500">{address.landmark}</p>
+                                                    <p className="text-sm font-semibold leading-6 text-gray-900">{address.mobile}</p>
+
                                                 </div>
-                                            </div>
-                                            <div className="hidden sm:flex sm:flex-col sm:items-end">
-                                                <p className="text-sm leading-6 text-gray-900">{person.role}</p>
-                                                {person.lastSeen ? (
-                                                    <p className="mt-1 text-xs leading-5 text-gray-500">
-                                                        Last seen <time dateTime={person.lastSeenDateTime}>{person.lastSeen}</time>
-                                                    </p>
-                                                ) : (
-                                                    <div className="mt-1 flex items-center gap-x-1.5">
-                                                        <div className="flex-none rounded-full bg-emerald-500/20 p-1">
-                                                            <div className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
-                                                        </div>
-                                                        <p className="text-xs leading-5 text-gray-500">Online</p>
-                                                    </div>
-                                                )}
                                             </div>
                                         </li>
                                     ))}
@@ -304,7 +261,7 @@ function CheckoutPage() {
                     {/* Cart Page Summary */}
 
                     <div className="bg-white mt-12 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                        <div className="mt-8">
+                        <div className="mt-10">
                             <h2 className='text-4xl font-bold tracking-tight mb-3' style={{ fontFamily: 'cursive', color: 'red' }}>Cart</h2>
                             <div className="flow-root">
                                 <ul role="list" className="-my-6 divide-y divide-gray-200">
@@ -369,7 +326,7 @@ function CheckoutPage() {
                                     href="#"
                                     className="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
                                 >
-                                    Checkout
+                                    Pay And Order
                                 </a>
                             </div>
                             <div className="mt-6 flex justify-center text-center text-sm text-gray-500">
