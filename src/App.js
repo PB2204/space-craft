@@ -8,9 +8,9 @@ import {
 import "./index.css";
 import Home from './pages/Home';
 import LoginPage from './pages/LoginPage';
-import Cart from './features/cart/Cart';
 import CartPage from './pages/CartPage';
 import CheckoutPage from './pages/Checkout';
+import ProductDetailsPage from './pages/ProductDetailsPage';
 
 
 const router = createBrowserRouter([
@@ -33,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "/checkout",
     element: (<CheckoutPage></CheckoutPage>),
+  },
+  {
+    path: "/product-details",
+    element: (<ProductDetailsPage></ProductDetailsPage>),
   },
 ]);
 

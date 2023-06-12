@@ -182,6 +182,19 @@ function CheckoutPage() {
                                 </div>
                             </div>
 
+
+                            <div className="mt-6 flex items-center justify-end gap-x-6">
+                                <button type="button" className="text-sm font-semibold leading-6 text-gray-900">
+                                    Reset
+                                </button>
+                                <button
+                                    type="submit"
+                                    className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                >
+                                    Add Address
+                                </button>
+                            </div>
+
                             <div className="border-b border-gray-900/10 pb-12">
                                 <h2 className="text-base font-semibold leading-7 text-gray-900">Choose Address</h2>
                                 <p className="mt-1 text-sm leading-6 text-gray-600">
@@ -192,10 +205,10 @@ function CheckoutPage() {
                                     {addresses.map((address) => (
                                         <li key={address.place} className="flex justify-between gap-x-6 py-5 border-solid border-2 border-gray-800">
                                             <div className="flex gap-x-4">
-                                            <input name='address'
-                                                type="radio"
-                                                className="h-4 w-4 mt-10 ml-5 mr-5 border-gray-300 text-indigo-600 focus:ring-indigo-600"
-                                            />
+                                                <input name='address'
+                                                    type="radio"
+                                                    className="h-4 w-4 mt-10 ml-5 mr-5 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                                                />
                                                 <div className="min-w-0 flex-auto">
                                                     <p className="text-sm font-semibold leading-6 text-gray-900">{address.name}</p>
                                                     <p className="mt-1 truncate text-xs leading-5 text-gray-500">{address.place}</p>
@@ -241,18 +254,6 @@ function CheckoutPage() {
                                     </fieldset>
                                 </div>
                             </div>
-                        </div>
-
-                        <div className="mt-6 flex items-center justify-end gap-x-6">
-                            <button type="button" className="text-sm font-semibold leading-6 text-gray-900">
-                                Cancel
-                            </button>
-                            <button
-                                type="submit"
-                                className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                            >
-                                Save
-                            </button>
                         </div>
                     </form>
                 </div>
