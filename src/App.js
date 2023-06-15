@@ -18,7 +18,8 @@ import Protected from './features/auth/components/Protected';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectLoggedInUser } from './features/auth/authSlice';
-import { fetchItemsByUserIdAsync } from './features/cart/cartSlice';
+// import { fetchItemsByUserIdAsync } from './features/cart/cartSlice';
+import  fetchItemsByUserIdAsync  from './features/cart/cartSlice';
 const router = createBrowserRouter([
   {
     path: '/',
