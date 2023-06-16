@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useForm } from 'react-hook-form';
 
@@ -25,8 +24,8 @@ export default function Signup() {
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
             className="mx-auto h-10 w-auto"
-            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-            alt="Your Company"
+            src="/space-craft.png"
+            alt="Space Craft"
           />
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
             Create A New Account
@@ -39,7 +38,13 @@ export default function Signup() {
             className="space-y-6"
             onSubmit={handleSubmit((data) => {
               dispatch(
-                createUserAsync({ email: data.email, password: data.password, addresses:[] })
+                createUserAsync({
+                  email: data.email,
+                  password: data.password,
+                  addresses: [],
+                  role:'user'
+                  //TODO: this role can be directly given on backend
+                })
               );
               console.log(data);
             })}
@@ -55,10 +60,10 @@ export default function Signup() {
                 <input
                   id="email"
                   {...register('email', {
-                    required: 'email is required',
+                    required: 'Email Address Is Required',
                     pattern: {
                       value: /\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b/gi,
-                      message: 'email not valid',
+                      message: 'Entered Email Is Not Valid , Enter A Valid Email',
                     },
                   })}
                   type="email"
@@ -78,14 +83,6 @@ export default function Signup() {
                 >
                   Password
                 </label>
-                {/* <div className="text-sm">
-                  <a
-                    href="#"
-                    className="font-semibold text-indigo-600 hover:text-indigo-500"
-                  >
-                    Forgot password?
-                  </a>
-                </div> */}
               </div>
               <div className="mt-2">
                 <input
@@ -153,7 +150,7 @@ export default function Signup() {
               to="/login"
               className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
             >
-              {'\u00A0'} Log In
+              Log In
             </Link>
           </p>
         </div>

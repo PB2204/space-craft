@@ -4,10 +4,10 @@
       "id": 1,
       "title": "iPhone 9",
       "description": "An apple mobile which is nothing like apple",
-      "price": 549,
+      "price": 993,
       "discountPercentage": 12.96,
-      "rating": 4.69,
-      "stock": 94,
+      "rating": 0,
+      "stock": 0,
       "brand": "Apple",
       "category": "smartphones",
       "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
@@ -15,17 +15,17 @@
         "https://i.dummyjson.com/data/products/1/1.jpg",
         "https://i.dummyjson.com/data/products/1/2.jpg",
         "https://i.dummyjson.com/data/products/1/3.jpg",
-        "https://i.dummyjson.com/data/products/1/4.jpg",
         "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-      ]
+      ],
+      "deleted": true
     },
     {
       "id": 2,
       "title": "iPhone X",
       "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 899,
+      "price": 1111,
       "discountPercentage": 17.94,
-      "rating": 4.44,
+      "rating": 0,
       "stock": 34,
       "brand": "Apple",
       "category": "smartphones",
@@ -35,7 +35,8 @@
         "https://i.dummyjson.com/data/products/2/2.jpg",
         "https://i.dummyjson.com/data/products/2/3.jpg",
         "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-      ]
+      ],
+      "deleted": true
     },
     {
       "id": 3,
@@ -50,15 +51,16 @@
       "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/3/1.jpg"
-      ]
+      ],
+      "deleted": true
     },
     {
       "id": 4,
       "title": "OPPOF19",
       "description": "OPPO F19 is officially announced on April 2021.",
-      "price": 280,
+      "price": 300,
       "discountPercentage": 17.91,
-      "rating": 4.3,
+      "rating": 0,
       "stock": 123,
       "brand": "OPPO",
       "category": "smartphones",
@@ -67,7 +69,6 @@
         "https://i.dummyjson.com/data/products/4/1.jpg",
         "https://i.dummyjson.com/data/products/4/2.jpg",
         "https://i.dummyjson.com/data/products/4/3.jpg",
-        "https://i.dummyjson.com/data/products/4/4.jpg",
         "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
       ]
     },
@@ -92,9 +93,9 @@
       "id": 6,
       "title": "MacBook Pro",
       "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-      "price": 1749,
+      "price": 1999,
       "discountPercentage": 11.02,
-      "rating": 4.57,
+      "rating": 0,
       "stock": 83,
       "brand": "Apple",
       "category": "laptops",
@@ -103,7 +104,7 @@
         "https://i.dummyjson.com/data/products/6/1.png",
         "https://i.dummyjson.com/data/products/6/2.jpg",
         "https://i.dummyjson.com/data/products/6/3.png",
-        "https://i.dummyjson.com/data/products/6/4.jpg"
+        "https://i.dummyjson.com/data/products/6/thumbnail.png"
       ]
     },
     {
@@ -1838,6 +1839,23 @@
         "https://i.dummyjson.com/data/products/100/3.jpg",
         "https://i.dummyjson.com/data/products/100/thumbnail.jpg"
       ]
+    },
+    {
+      "title": "Mac Book Air ",
+      "description": "Mac Book Air ",
+      "brand": "Apple",
+      "category": "laptops",
+      "price": 1111,
+      "discountPercentage": 11,
+      "stock": 22,
+      "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+      "images": [
+        "https://i.dummyjson.com/data/products/6/thumbnail.png",
+        "https://i.dummyjson.com/data/products/6/thumbnail.png",
+        "https://i.dummyjson.com/data/products/6/thumbnail.png",
+        "https://i.dummyjson.com/data/products/6/thumbnail.png"
+      ],
+      "id": 101
     }
   ],
   "brands": [
@@ -2336,34 +2354,32 @@
   ],
   "users": [
     {
-      "email": "jishub2204@gmail.com",
+      "email": "admin@gmail.com",
+      "password": "Qwerty123",
+      "addresses": [],
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "email": "rockstarpabitra2204@gmail.com",
       "password": "Pabitra123",
       "addresses": [
         {
           "name": "Pabitra Banerjee",
           "email": "rockstarpabitra2204@gmail.com",
-          "phone": "+919064485906",
-          "street": "Manbazar, Purulia, West Bengal",
-          "city": "Manbazar",
-          "state": "West Bengal",
-          "pinCode": "723131"
-        },
-        {
-          "name": "Pabitra Banerjee",
-          "email": "rockstarpabitra2204@gmail.com",
-          "phone": "+919064485906",
+          "phone": "09064485906",
           "street": "Manbazar, Purulia, West Bengal",
           "city": "Manbazar",
           "state": "West Bengal",
           "pinCode": "723131"
         }
       ],
-      "id": 1
+      "role": "user",
+      "id": 2
     }
   ],
   "cart": [
     {
-      "id": 3,
       "title": "Samsung Universe 9",
       "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
       "price": 1249,
@@ -2376,1217 +2392,240 @@
       "images": [
         "https://i.dummyjson.com/data/products/3/1.jpg"
       ],
-      "quantity": 2,
-      "user": 2
-    },
-    {
-      "id": 5,
-      "title": "Huawei P30",
-      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
-      "price": 499,
-      "discountPercentage": 10.58,
-      "rating": 4.09,
-      "stock": 32,
-      "brand": "Huawei",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/5/1.jpg",
-        "https://i.dummyjson.com/data/products/5/2.jpg",
-        "https://i.dummyjson.com/data/products/5/3.jpg"
-      ],
+      "deleted": true,
+      "productId": 3,
       "quantity": 1,
-      "user": 2
-    },
-    {
-      "title": "iPhone 9",
-      "description": "An apple mobile which is nothing like apple",
-      "price": 549,
-      "discountPercentage": 12.96,
-      "rating": 4.69,
-      "stock": 94,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-      "images": [
-        "https://i.dummyjson.com/data/products/1/1.jpg",
-        "https://i.dummyjson.com/data/products/1/2.jpg",
-        "https://i.dummyjson.com/data/products/1/3.jpg",
-        "https://i.dummyjson.com/data/products/1/4.jpg",
-        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-      ],
-      "quantity": 1,
-      "user": 3,
-      "id": 7
-    },
-    {
-      "title": "MacBook Pro",
-      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-      "price": 1749,
-      "discountPercentage": 11.02,
-      "rating": 4.57,
-      "stock": 83,
-      "brand": "Apple",
-      "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-      "images": [
-        "https://i.dummyjson.com/data/products/6/1.png",
-        "https://i.dummyjson.com/data/products/6/2.jpg",
-        "https://i.dummyjson.com/data/products/6/3.png",
-        "https://i.dummyjson.com/data/products/6/4.jpg"
-      ],
-      "quantity": 5,
-      "user": 1,
-      "id": 9
+      "user": 2,
+      "id": 1
     }
   ],
   "orders": [
     {
       "items": [
         {
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "title": "Microsoft Surface Laptop 4",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+          "price": 1499,
+          "discountPercentage": 10.23,
+          "rating": 4.43,
+          "stock": 68,
+          "brand": "Microsoft Surface",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
           "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+            "https://i.dummyjson.com/data/products/8/1.jpg",
+            "https://i.dummyjson.com/data/products/8/2.jpg",
+            "https://i.dummyjson.com/data/products/8/3.jpg",
+            "https://i.dummyjson.com/data/products/8/4.jpg",
+            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
           ],
-          "quantity": 2,
-          "user": 1,
-          "id": 6
+          "productId": 8,
+          "quantity": 5,
+          "user": 2,
+          "id": 1
         }
       ],
-      "totalAmount": 1798,
-      "totalItems": 2,
+      "totalAmount": 6730,
+      "totalItems": 5,
       "user": {
-        "email": "test@gmail.com",
-        "password": "Qwerty123",
+        "email": "rockstarpabitra2204@gmail.com",
+        "password": "Pabitra123",
         "addresses": [
           {
-            "name": "Abhishek R",
-            "email": "test@gmail.com",
-            "phone": "1234567788",
-            "street": "11th Main",
-            "city": "Banaglore",
-            "state": "Karnataka",
-            "pinCode": "560034"
-          },
-          {
-            "name": "Abhishek R",
-            "email": "test@gmail.com",
-            "phone": "1234567788",
-            "street": "11th Main",
-            "city": "Banaglore",
-            "state": "Karnataka",
-            "pinCode": "560034"
+            "name": "Pabitra Banerjee",
+            "email": "rockstarpabitra2204@gmail.com",
+            "phone": "09064485906",
+            "street": "Manbazar, Purulia, West Bengal",
+            "city": "Manbazar",
+            "state": "West Bengal",
+            "pinCode": "723131"
           }
         ],
-        "id": 1
+        "role": "user",
+        "id": 2
       },
       "paymentMethod": "card",
       "selectedAddress": {
-        "name": "Abhishek R",
-        "email": "test@gmail.com",
-        "phone": "1234567788",
-        "street": "11th Main",
-        "city": "Banaglore",
-        "state": "Karnataka",
-        "pinCode": "560034"
+        "name": "Pabitra Banerjee",
+        "email": "rockstarpabitra2204@gmail.com",
+        "phone": "09064485906",
+        "street": "Manbazar, Purulia, West Bengal",
+        "city": "Manbazar",
+        "state": "West Bengal",
+        "pinCode": "723131"
       },
+      "status": "dispatched",
       "id": 1
     },
     {
       "items": [
         {
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "title": "Money Heist Printed Summer T Shirts",
+          "description": "Fabric Jercy, Size: M & L Wear Stylish Dual Stiched",
+          "price": 66,
+          "discountPercentage": 15.97,
+          "rating": 4.9,
+          "stock": 122,
+          "brand": "The Warehouse",
+          "category": "mens-shirts",
+          "thumbnail": "https://i.dummyjson.com/data/products/55/thumbnail.jpg",
           "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+            "https://i.dummyjson.com/data/products/55/1.jpg",
+            "https://i.dummyjson.com/data/products/55/2.webp",
+            "https://i.dummyjson.com/data/products/55/3.jpg",
+            "https://i.dummyjson.com/data/products/55/4.jpg",
+            "https://i.dummyjson.com/data/products/55/thumbnail.jpg"
           ],
-          "quantity": 2,
-          "user": 1,
-          "id": 6
+          "productId": 55,
+          "quantity": 5,
+          "user": 2,
+          "id": 1
         }
       ],
-      "totalAmount": 1798,
-      "totalItems": 2,
+      "totalAmount": 275,
+      "totalItems": 5,
       "user": {
-        "email": "test@gmail.com",
-        "password": "Qwerty123",
+        "email": "rockstarpabitra2204@gmail.com",
+        "password": "Pabitra123",
         "addresses": [
           {
-            "name": "Abhishek R",
-            "email": "test@gmail.com",
-            "phone": "1234567788",
-            "street": "11th Main",
-            "city": "Banaglore",
-            "state": "Karnataka",
-            "pinCode": "560034"
-          },
-          {
-            "name": "Abhishek R",
-            "email": "test@gmail.com",
-            "phone": "1234567788",
-            "street": "11th Main",
-            "city": "Banaglore",
-            "state": "Karnataka",
-            "pinCode": "560034"
+            "name": "Pabitra Banerjee",
+            "email": "rockstarpabitra2204@gmail.com",
+            "phone": "09064485906",
+            "street": "Manbazar, Purulia, West Bengal",
+            "city": "Manbazar",
+            "state": "West Bengal",
+            "pinCode": "723131"
           }
         ],
-        "id": 1
+        "role": "user",
+        "id": 2
       },
-      "paymentMethod": "card",
+      "paymentMethod": "cash",
       "selectedAddress": {
-        "name": "Abhishek R",
-        "email": "test@gmail.com",
-        "phone": "1234567788",
-        "street": "11th Main",
-        "city": "Banaglore",
-        "state": "Karnataka",
-        "pinCode": "560034"
+        "name": "Pabitra Banerjee",
+        "email": "rockstarpabitra2204@gmail.com",
+        "phone": "09064485906",
+        "street": "Manbazar, Purulia, West Bengal",
+        "city": "Manbazar",
+        "state": "West Bengal",
+        "pinCode": "723131"
       },
+      "status": "delivered",
       "id": 2
     },
     {
       "items": [
         {
-          "title": "iPhone X",
-          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-          "price": 899,
-          "discountPercentage": 17.94,
-          "rating": 4.44,
-          "stock": 34,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "title": "HP Pavilion 15-DK1056WM",
+          "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+          "price": 1099,
+          "discountPercentage": 6.18,
+          "rating": 4.43,
+          "stock": 89,
+          "brand": "HP Pavilion",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
           "images": [
-            "https://i.dummyjson.com/data/products/2/1.jpg",
-            "https://i.dummyjson.com/data/products/2/2.jpg",
-            "https://i.dummyjson.com/data/products/2/3.jpg",
-            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+            "https://i.dummyjson.com/data/products/10/1.jpg",
+            "https://i.dummyjson.com/data/products/10/2.jpg",
+            "https://i.dummyjson.com/data/products/10/3.jpg",
+            "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
           ],
-          "quantity": 2,
-          "user": 1,
-          "id": 6
+          "productId": 10,
+          "quantity": 5,
+          "user": 2,
+          "id": 1
         }
       ],
-      "totalAmount": 1798,
-      "totalItems": 2,
+      "totalAmount": 5155,
+      "totalItems": 5,
       "user": {
-        "email": "test@gmail.com",
-        "password": "Qwerty123",
+        "email": "rockstarpabitra2204@gmail.com",
+        "password": "Pabitra123",
         "addresses": [
           {
-            "name": "Abhishek R",
-            "email": "test@gmail.com",
-            "phone": "1234567788",
-            "street": "11th Main",
-            "city": "Banaglore",
-            "state": "Karnataka",
-            "pinCode": "560034"
-          },
-          {
-            "name": "Abhishek R",
-            "email": "test@gmail.com",
-            "phone": "1234567788",
-            "street": "11th Main",
-            "city": "Banaglore",
-            "state": "Karnataka",
-            "pinCode": "560034"
+            "name": "Pabitra Banerjee",
+            "email": "rockstarpabitra2204@gmail.com",
+            "phone": "09064485906",
+            "street": "Manbazar, Purulia, West Bengal",
+            "city": "Manbazar",
+            "state": "West Bengal",
+            "pinCode": "723131"
           }
         ],
-        "id": 1
+        "role": "user",
+        "id": 2
       },
       "paymentMethod": "card",
       "selectedAddress": {
-        "name": "Abhishek R",
-        "email": "test@gmail.com",
-        "phone": "1234567788",
-        "street": "11th Main",
-        "city": "Banaglore",
-        "state": "Karnataka",
-        "pinCode": "560034"
+        "name": "Pabitra Banerjee",
+        "email": "rockstarpabitra2204@gmail.com",
+        "phone": "09064485906",
+        "street": "Manbazar, Purulia, West Bengal",
+        "city": "Manbazar",
+        "state": "West Bengal",
+        "pinCode": "723131"
       },
+      "status": "cancelled",
       "id": 3
     },
     {
       "items": [
         {
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+          "title": "Microsoft Surface Laptop 4",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+          "price": 1499,
+          "discountPercentage": 10.23,
+          "rating": 4.43,
+          "stock": 68,
+          "brand": "Microsoft Surface",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
           "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/4.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+            "https://i.dummyjson.com/data/products/8/1.jpg",
+            "https://i.dummyjson.com/data/products/8/2.jpg",
+            "https://i.dummyjson.com/data/products/8/3.jpg",
+            "https://i.dummyjson.com/data/products/8/4.jpg",
+            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
           ],
+          "productId": 8,
           "quantity": 1,
-          "user": 3,
-          "id": 7
+          "user": 2,
+          "id": 1
         }
       ],
-      "totalAmount": 549,
+      "totalAmount": 1346,
       "totalItems": 1,
       "user": {
-        "email": "jishub2204@gmail.com",
+        "email": "rockstarpabitra2204@gmail.com",
         "password": "Pabitra123",
         "addresses": [
           {
             "name": "Pabitra Banerjee",
             "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
+            "phone": "09064485906",
             "street": "Manbazar, Purulia, West Bengal",
             "city": "Manbazar",
             "state": "West Bengal",
             "pinCode": "723131"
           }
         ],
-        "id": 3
+        "role": "user",
+        "id": 2
       },
       "paymentMethod": "cash",
       "selectedAddress": {
         "name": "Pabitra Banerjee",
         "email": "rockstarpabitra2204@gmail.com",
-        "phone": "+919064485906",
+        "phone": "09064485906",
         "street": "Manbazar, Purulia, West Bengal",
         "city": "Manbazar",
         "state": "West Bengal",
         "pinCode": "723131"
       },
+      "status": "pending",
       "id": 4
-    },
-    {
-      "items": [
-        {
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/4.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": 3,
-          "id": 7
-        }
-      ],
-      "totalAmount": 549,
-      "totalItems": 1,
-      "user": {
-        "email": "jishub2204@gmail.com",
-        "password": "Pabitra123",
-        "addresses": [
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          }
-        ],
-        "id": 3
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Pabitra Banerjee",
-        "email": "rockstarpabitra2204@gmail.com",
-        "phone": "+919064485906",
-        "street": "Manbazar, Purulia, West Bengal",
-        "city": "Manbazar",
-        "state": "West Bengal",
-        "pinCode": "723131"
-      },
-      "id": 5
-    },
-    {
-      "items": [
-        {
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/4.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": 3,
-          "id": 7
-        }
-      ],
-      "totalAmount": 549,
-      "totalItems": 1,
-      "user": {
-        "email": "jishub2204@gmail.com",
-        "password": "Pabitra123",
-        "addresses": [
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          }
-        ],
-        "id": 3
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Pabitra Banerjee",
-        "email": "rockstarpabitra2204@gmail.com",
-        "phone": "+919064485906",
-        "street": "Manbazar, Purulia, West Bengal",
-        "city": "Manbazar",
-        "state": "West Bengal",
-        "pinCode": "723131"
-      },
-      "id": 6
-    },
-    {
-      "items": [
-        {
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/4.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "quantity": 1,
-          "user": 3,
-          "id": 7
-        }
-      ],
-      "totalAmount": 549,
-      "totalItems": 1,
-      "user": {
-        "email": "jishub2204@gmail.com",
-        "password": "Pabitra123",
-        "addresses": [
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          }
-        ],
-        "id": 3
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Pabitra Banerjee",
-        "email": "rockstarpabitra2204@gmail.com",
-        "phone": "+919064485906",
-        "street": "Manbazar, Purulia, West Bengal",
-        "city": "Manbazar",
-        "state": "West Bengal",
-        "pinCode": "723131"
-      },
-      "id": 7
-    },
-    {
-      "items": [
-        {
-          "title": "iPhone 9",
-          "description": "An apple mobile which is nothing like apple",
-          "price": 549,
-          "discountPercentage": 12.96,
-          "rating": 4.69,
-          "stock": 94,
-          "brand": "Apple",
-          "category": "smartphones",
-          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/1/1.jpg",
-            "https://i.dummyjson.com/data/products/1/2.jpg",
-            "https://i.dummyjson.com/data/products/1/3.jpg",
-            "https://i.dummyjson.com/data/products/1/4.jpg",
-            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-          ],
-          "quantity": 5,
-          "user": 1,
-          "id": 8
-        }
-      ],
-      "totalAmount": 2745,
-      "totalItems": 5,
-      "user": {
-        "email": "jishub2204@gmail.com",
-        "password": "Pabitra123",
-        "addresses": [
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          },
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "card",
-      "selectedAddress": {
-        "name": "Pabitra Banerjee",
-        "email": "rockstarpabitra2204@gmail.com",
-        "phone": "+919064485906",
-        "street": "Manbazar, Purulia, West Bengal",
-        "city": "Manbazar",
-        "state": "West Bengal",
-        "pinCode": "723131"
-      },
-      "id": 8
-    },
-    {
-      "items": [
-        {
-          "title": "MacBook Pro",
-          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-          "price": 1749,
-          "discountPercentage": 11.02,
-          "rating": 4.57,
-          "stock": 83,
-          "brand": "Apple",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-          "images": [
-            "https://i.dummyjson.com/data/products/6/1.png",
-            "https://i.dummyjson.com/data/products/6/2.jpg",
-            "https://i.dummyjson.com/data/products/6/3.png",
-            "https://i.dummyjson.com/data/products/6/4.jpg"
-          ],
-          "quantity": 5,
-          "user": 1,
-          "id": 9
-        }
-      ],
-      "totalAmount": 8745,
-      "totalItems": 5,
-      "user": {
-        "email": "jishub2204@gmail.com",
-        "password": "Pabitra123",
-        "addresses": [
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          },
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Pabitra Banerjee",
-        "email": "rockstarpabitra2204@gmail.com",
-        "phone": "+919064485906",
-        "street": "Manbazar, Purulia, West Bengal",
-        "city": "Manbazar",
-        "state": "West Bengal",
-        "pinCode": "723131"
-      },
-      "id": 9
-    },
-    {
-      "items": [
-        {
-          "title": "MacBook Pro",
-          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-          "price": 1749,
-          "discountPercentage": 11.02,
-          "rating": 4.57,
-          "stock": 83,
-          "brand": "Apple",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-          "images": [
-            "https://i.dummyjson.com/data/products/6/1.png",
-            "https://i.dummyjson.com/data/products/6/2.jpg",
-            "https://i.dummyjson.com/data/products/6/3.png",
-            "https://i.dummyjson.com/data/products/6/4.jpg"
-          ],
-          "quantity": 5,
-          "user": 1,
-          "id": 9
-        }
-      ],
-      "totalAmount": 8745,
-      "totalItems": 5,
-      "user": {
-        "email": "jishub2204@gmail.com",
-        "password": "Pabitra123",
-        "addresses": [
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          },
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Pabitra Banerjee",
-        "email": "rockstarpabitra2204@gmail.com",
-        "phone": "+919064485906",
-        "street": "Manbazar, Purulia, West Bengal",
-        "city": "Manbazar",
-        "state": "West Bengal",
-        "pinCode": "723131"
-      },
-      "id": 10
-    },
-    {
-      "items": [
-        {
-          "title": "MacBook Pro",
-          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-          "price": 1749,
-          "discountPercentage": 11.02,
-          "rating": 4.57,
-          "stock": 83,
-          "brand": "Apple",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-          "images": [
-            "https://i.dummyjson.com/data/products/6/1.png",
-            "https://i.dummyjson.com/data/products/6/2.jpg",
-            "https://i.dummyjson.com/data/products/6/3.png",
-            "https://i.dummyjson.com/data/products/6/4.jpg"
-          ],
-          "quantity": 5,
-          "user": 1,
-          "id": 9
-        }
-      ],
-      "totalAmount": 8745,
-      "totalItems": 5,
-      "user": {
-        "email": "jishub2204@gmail.com",
-        "password": "Pabitra123",
-        "addresses": [
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          },
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Pabitra Banerjee",
-        "email": "rockstarpabitra2204@gmail.com",
-        "phone": "+919064485906",
-        "street": "Manbazar, Purulia, West Bengal",
-        "city": "Manbazar",
-        "state": "West Bengal",
-        "pinCode": "723131"
-      },
-      "id": 11
-    },
-    {
-      "items": [
-        {
-          "title": "MacBook Pro",
-          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-          "price": 1749,
-          "discountPercentage": 11.02,
-          "rating": 4.57,
-          "stock": 83,
-          "brand": "Apple",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-          "images": [
-            "https://i.dummyjson.com/data/products/6/1.png",
-            "https://i.dummyjson.com/data/products/6/2.jpg",
-            "https://i.dummyjson.com/data/products/6/3.png",
-            "https://i.dummyjson.com/data/products/6/4.jpg"
-          ],
-          "quantity": 5,
-          "user": 1,
-          "id": 9
-        }
-      ],
-      "totalAmount": 8745,
-      "totalItems": 5,
-      "user": {
-        "email": "jishub2204@gmail.com",
-        "password": "Pabitra123",
-        "addresses": [
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          },
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Pabitra Banerjee",
-        "email": "rockstarpabitra2204@gmail.com",
-        "phone": "+919064485906",
-        "street": "Manbazar, Purulia, West Bengal",
-        "city": "Manbazar",
-        "state": "West Bengal",
-        "pinCode": "723131"
-      },
-      "id": 12
-    },
-    {
-      "items": [
-        {
-          "title": "MacBook Pro",
-          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-          "price": 1749,
-          "discountPercentage": 11.02,
-          "rating": 4.57,
-          "stock": 83,
-          "brand": "Apple",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-          "images": [
-            "https://i.dummyjson.com/data/products/6/1.png",
-            "https://i.dummyjson.com/data/products/6/2.jpg",
-            "https://i.dummyjson.com/data/products/6/3.png",
-            "https://i.dummyjson.com/data/products/6/4.jpg"
-          ],
-          "quantity": 5,
-          "user": 1,
-          "id": 9
-        }
-      ],
-      "totalAmount": 8745,
-      "totalItems": 5,
-      "user": {
-        "email": "jishub2204@gmail.com",
-        "password": "Pabitra123",
-        "addresses": [
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          },
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Pabitra Banerjee",
-        "email": "rockstarpabitra2204@gmail.com",
-        "phone": "+919064485906",
-        "street": "Manbazar, Purulia, West Bengal",
-        "city": "Manbazar",
-        "state": "West Bengal",
-        "pinCode": "723131"
-      },
-      "id": 13
-    },
-    {
-      "items": [
-        {
-          "title": "MacBook Pro",
-          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-          "price": 1749,
-          "discountPercentage": 11.02,
-          "rating": 4.57,
-          "stock": 83,
-          "brand": "Apple",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-          "images": [
-            "https://i.dummyjson.com/data/products/6/1.png",
-            "https://i.dummyjson.com/data/products/6/2.jpg",
-            "https://i.dummyjson.com/data/products/6/3.png",
-            "https://i.dummyjson.com/data/products/6/4.jpg"
-          ],
-          "quantity": 5,
-          "user": 1,
-          "id": 9
-        }
-      ],
-      "totalAmount": 8745,
-      "totalItems": 5,
-      "user": {
-        "email": "jishub2204@gmail.com",
-        "password": "Pabitra123",
-        "addresses": [
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          },
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Pabitra Banerjee",
-        "email": "rockstarpabitra2204@gmail.com",
-        "phone": "+919064485906",
-        "street": "Manbazar, Purulia, West Bengal",
-        "city": "Manbazar",
-        "state": "West Bengal",
-        "pinCode": "723131"
-      },
-      "id": 14
-    },
-    {
-      "items": [
-        {
-          "title": "MacBook Pro",
-          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-          "price": 1749,
-          "discountPercentage": 11.02,
-          "rating": 4.57,
-          "stock": 83,
-          "brand": "Apple",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-          "images": [
-            "https://i.dummyjson.com/data/products/6/1.png",
-            "https://i.dummyjson.com/data/products/6/2.jpg",
-            "https://i.dummyjson.com/data/products/6/3.png",
-            "https://i.dummyjson.com/data/products/6/4.jpg"
-          ],
-          "quantity": 5,
-          "user": 1,
-          "id": 9
-        }
-      ],
-      "totalAmount": 8745,
-      "totalItems": 5,
-      "user": {
-        "email": "jishub2204@gmail.com",
-        "password": "Pabitra123",
-        "addresses": [
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          },
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Pabitra Banerjee",
-        "email": "rockstarpabitra2204@gmail.com",
-        "phone": "+919064485906",
-        "street": "Manbazar, Purulia, West Bengal",
-        "city": "Manbazar",
-        "state": "West Bengal",
-        "pinCode": "723131"
-      },
-      "id": 15
-    },
-    {
-      "items": [
-        {
-          "title": "MacBook Pro",
-          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-          "price": 1749,
-          "discountPercentage": 11.02,
-          "rating": 4.57,
-          "stock": 83,
-          "brand": "Apple",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-          "images": [
-            "https://i.dummyjson.com/data/products/6/1.png",
-            "https://i.dummyjson.com/data/products/6/2.jpg",
-            "https://i.dummyjson.com/data/products/6/3.png",
-            "https://i.dummyjson.com/data/products/6/4.jpg"
-          ],
-          "quantity": 5,
-          "user": 1,
-          "id": 9
-        }
-      ],
-      "totalAmount": 8745,
-      "totalItems": 5,
-      "user": {
-        "email": "jishub2204@gmail.com",
-        "password": "Pabitra123",
-        "addresses": [
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          },
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Pabitra Banerjee",
-        "email": "rockstarpabitra2204@gmail.com",
-        "phone": "+919064485906",
-        "street": "Manbazar, Purulia, West Bengal",
-        "city": "Manbazar",
-        "state": "West Bengal",
-        "pinCode": "723131"
-      },
-      "id": 16
-    },
-    {
-      "items": [
-        {
-          "title": "MacBook Pro",
-          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-          "price": 1749,
-          "discountPercentage": 11.02,
-          "rating": 4.57,
-          "stock": 83,
-          "brand": "Apple",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-          "images": [
-            "https://i.dummyjson.com/data/products/6/1.png",
-            "https://i.dummyjson.com/data/products/6/2.jpg",
-            "https://i.dummyjson.com/data/products/6/3.png",
-            "https://i.dummyjson.com/data/products/6/4.jpg"
-          ],
-          "quantity": 5,
-          "user": 1,
-          "id": 9
-        }
-      ],
-      "totalAmount": 8745,
-      "totalItems": 5,
-      "user": {
-        "email": "jishub2204@gmail.com",
-        "password": "Pabitra123",
-        "addresses": [
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          },
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Pabitra Banerjee",
-        "email": "rockstarpabitra2204@gmail.com",
-        "phone": "+919064485906",
-        "street": "Manbazar, Purulia, West Bengal",
-        "city": "Manbazar",
-        "state": "West Bengal",
-        "pinCode": "723131"
-      },
-      "id": 17
-    },
-    {
-      "items": [
-        {
-          "title": "MacBook Pro",
-          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-          "price": 1749,
-          "discountPercentage": 11.02,
-          "rating": 4.57,
-          "stock": 83,
-          "brand": "Apple",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-          "images": [
-            "https://i.dummyjson.com/data/products/6/1.png",
-            "https://i.dummyjson.com/data/products/6/2.jpg",
-            "https://i.dummyjson.com/data/products/6/3.png",
-            "https://i.dummyjson.com/data/products/6/4.jpg"
-          ],
-          "quantity": 5,
-          "user": 1,
-          "id": 9
-        }
-      ],
-      "totalAmount": 8745,
-      "totalItems": 5,
-      "user": {
-        "email": "jishub2204@gmail.com",
-        "password": "Pabitra123",
-        "addresses": [
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          },
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Pabitra Banerjee",
-        "email": "rockstarpabitra2204@gmail.com",
-        "phone": "+919064485906",
-        "street": "Manbazar, Purulia, West Bengal",
-        "city": "Manbazar",
-        "state": "West Bengal",
-        "pinCode": "723131"
-      },
-      "id": 18
-    },
-    {
-      "items": [
-        {
-          "title": "MacBook Pro",
-          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-          "price": 1749,
-          "discountPercentage": 11.02,
-          "rating": 4.57,
-          "stock": 83,
-          "brand": "Apple",
-          "category": "laptops",
-          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-          "images": [
-            "https://i.dummyjson.com/data/products/6/1.png",
-            "https://i.dummyjson.com/data/products/6/2.jpg",
-            "https://i.dummyjson.com/data/products/6/3.png",
-            "https://i.dummyjson.com/data/products/6/4.jpg"
-          ],
-          "quantity": 5,
-          "user": 1,
-          "id": 9
-        }
-      ],
-      "totalAmount": 8745,
-      "totalItems": 5,
-      "user": {
-        "email": "jishub2204@gmail.com",
-        "password": "Pabitra123",
-        "addresses": [
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          },
-          {
-            "name": "Pabitra Banerjee",
-            "email": "rockstarpabitra2204@gmail.com",
-            "phone": "+919064485906",
-            "street": "Manbazar, Purulia, West Bengal",
-            "city": "Manbazar",
-            "state": "West Bengal",
-            "pinCode": "723131"
-          }
-        ],
-        "id": 1
-      },
-      "paymentMethod": "cash",
-      "selectedAddress": {
-        "name": "Pabitra Banerjee",
-        "email": "rockstarpabitra2204@gmail.com",
-        "phone": "+919064485906",
-        "street": "Manbazar, Purulia, West Bengal",
-        "city": "Manbazar",
-        "state": "West Bengal",
-        "pinCode": "723131"
-      },
-      "id": 19
     }
   ]
 }
